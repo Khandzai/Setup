@@ -3,7 +3,7 @@ sudo apt update
 #Install Kvm
 sudo apt install qemu-kvm -y
 #Install Win
-wget -O win11.iso "https://computernewb.com/isos/windows/en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso"
+wget -O win11.iso "https://computernewb.com/isos/windows/Win11_23H2_English_x64v2.iso"
 #Install Driver
 wget -O driver.iso "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.262-2/virtio-win-0.1.262.iso"
 #Run KVM
