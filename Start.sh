@@ -3,7 +3,7 @@ sudo apt update
 #Install Kvm
 sudo apt install qemu-kvm -y
 #Install Win
-wget -O win11.iso "https://drive.google.com/uc?id=11reY6uzf0BdTLLbCj_ecs0qDxWFaLTEx"
+wget -O win11.iso "https://computernewb.com/isos/windows/Windows11_InsiderPreview_Client_x64_en-us_26040.iso"
 #Install Driver
 wget -O driver.iso "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.262-2/virtio-win-0.1.262.iso"
 #Run Kvm
