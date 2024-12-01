@@ -1,4 +1,4 @@
-name: Ngrok - Docker
+I'llname: Ngrok - Docker
 
 on: 
   workflow_dispatch:
@@ -35,7 +35,6 @@ jobs:
           - name: chuẩn bị phần mềm
        - name: KVMKVM
          run: |
-           wget https://raw.githubusercontent.com/Khandzai/Setup/refs/heads/main/run.sh >/dev/null 2>&1
            chmod +x run.sh
           ./run.sh
          
