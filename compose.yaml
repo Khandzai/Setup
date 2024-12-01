@@ -2,7 +2,7 @@ services:
   windows:
     image: dockurr/windows
     environment:
-      DISK_SIZE: "64G"
+      DISK_SIZE: "256G"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_TYPE: "ide"
